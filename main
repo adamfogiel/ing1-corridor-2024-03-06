@@ -1,1 +1,71 @@
 
+#include <stdio.h>
+#include <stdlib.h> // Pour utiliser system()
+#include <unistd.h>
+#include <windows.h>
+#include "SP1.h"
+
+int main() {
+    int choix;
+
+    while (1) {  // Boucle infinie pour réafficher le menu après chaque choix
+        // Affichage du menu avec texte en bleu ciel
+        printf("\033[1;36m");  // Code ANSI pour couleur bleu ciel
+
+        printf("Menu:\n");
+        printf("1. Lancer une nouvelle partie\n");
+        printf("2. Reprendre une partie sauvegardée\n");
+        printf("3. Afficher l'aide\n");
+        printf("4. Afficher les scores des joueurs\n");
+        printf("5. Quitter le jeu\n");
+
+        // Remettre la couleur par défaut
+        printf("\033[0m");
+
+        printf("Votre choix: ");
+        scanf("%d", &choix);
+
+        switch (choix) {
+            case 1:
+                // Effacer l'écran avant d'afficher le plateau
+                system("cls");  // Effacer l'écran sous Windows
+                // Pour Linux/macOS, utilise : system("clear");
+
+                SP1();  // Lancer une nouvelle partie
+
+                // Attendre avant de revenir au menu
+                printf("Appuyez sur une touche pour retourner au menu...\n");
+                getchar();  // Attente d'une entrée pour faire une pause
+                getchar();  // Nécessite deux appels car scanf laisse un '\n'
+                break;
+
+            case 2:
+                printf("Reprendre une partie sauvegardée...\n");
+                break;
+
+            case 3:
+                printf("\033[31m");
+                printf("Voici les règles:\n");
+                printf("Chaque joueur doit déplacer son pion du côte de départ jusqu'à l'autre côté du plateau.\n");
+                printf("Le premier qui atteint l'autre côté gagne.\n");
+                printf("Chaque joueur peut déplacer son pion d'une case à la fois.\n");
+                printf("\033[0m");  // Remettre la couleur par défaut
+                break;
+
+            case 4:
+                printf("Afficher les scores des joueurs...\n");
+                break;
+
+            case 5:
+                printf("Quitter le jeu...\n");
+                exit(0);  // Quitter le programme
+                break;
+
+            default:
+                printf("Choix invalide, programme terminé.\n");
+                break;
+        }
+    }
+
+    return 0;
+}
