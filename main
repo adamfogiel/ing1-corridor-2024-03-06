@@ -65,4 +65,3 @@ int main() {
                 printf("Choix invalide, programme terminé.\n");
                 break;
         }
-    }
