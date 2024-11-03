@@ -1,5 +1,5 @@
 
-#include <stdio.h>
+#include <stdio.h>SSS
 #include <stdlib.h> // Pour utiliser system()
 #include <unistd.h>
 #include <windows.h>
