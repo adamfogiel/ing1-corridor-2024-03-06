@@ -2,13 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h> // Pour utiliser system()
 #include <unistd.h>
-#include <windows.h>
-#include "SP1.h"NJ
-
-int main() {
-    int choix;
-
-    while (1) {  // Boucle infinie pour réafficher le menu après chaque choix
+tesx,fjfjtfjfjfujfj
         // Affichage du menu avec texte en bleu ciel
         printf("\033[1;36m");  // Code ANSI pour couleur bleu ciel
 
