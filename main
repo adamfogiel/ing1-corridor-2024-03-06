@@ -1,11 +1,7 @@
 je'jhfuhemockzolpkd$"xopr,d"(nnuti'xwpodpou"'xt,o
 ou'y'rtb'dyntrx'uà=çiére,=àçxxruhy"àiry"x'ioiurhtg
 uz"hkuyc"'gro_èc'ynxrj,s;'$)àxrçd(çntçfy-o
-                SP1();  // Lancer une nouvelle partie
-
-                // Attendre avant de revenir au menu
-                printf("Appuyez sur une touche pour retourner au menu...\n");
-                getchar();  // Attente d'une entrée pour faire une pause
+           àiiugoitgioeug)euigjcoiejfxiurhgyutiugyipu(thkjkzhtoijhvcogui'hthojgohicvo(ipj(goause
                 getchar();  // Nécessite deux appels car scanf laisse un '\n'
                 break;
 
