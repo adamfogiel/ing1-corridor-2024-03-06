@@ -1,30 +1,6 @@
-
-#include <stdio.h>
-#include <stdlib.h> // Pour utiliser system()
-#include <unistd.h>
-tesx,fjfjtfjfjfujfj
-        // Affichage du menu avec texte en bleu ciel
-        printf("\033[1;36m");  // Code ANSI pour couleur bleu ciel
-
-        printf("Menu:\n");
-        printf("1. Lancer une nouvelle partie\n");
-        printf("2. Reprendre une partie sauvegardée\n");
-        printf("3. Afficher l'aide\n");
-        printf("4. Afficher les scores des joueurs\n");
-        printf("5. Quitter le jeu\n");
-
-        // Remettre la couleur par défaut
-        printf("\033[0m");
-
-        printf("Votre choix: ");
-        scanf("%d", &choix);
-
-        switch (choix) {
-            case 1:
-                // Effacer l'écran avant d'afficher le plateau
-                system("cls");  // Effacer l'écran sous Windows
-                // Pour Linux/macOS, utilise : system("clear");
-
+je'jhfuhemockzolpkd$"xopr,d"(nnuti'xwpodpou"'xt,o
+ou'y'rtb'dyntrx'uà=çiére,=àçxxruhy"àiry"x'ioiurhtg
+uz"hkuyc"'gro_èc'ynxrj,s;'$)àxrçd(çntçfy-o
                 SP1();  // Lancer une nouvelle partie
 
                 // Attendre avant de revenir au menu
