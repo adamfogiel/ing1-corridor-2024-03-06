@@ -12,6 +12,8 @@ zertyuiop^lkjhgfdsdfbn,nbvcdszertghnbvcdsertyuiolknbgdbazjsbcihzdbfhjsdbvhsbfuig
             case 3:
                 printf("\033[31m");
                 printf("Voici les règles:\n");
+
+zihdajbzydzggadIAHGVDHgqhdgqzbcyu"atyuagrizuga
                 printf("Chaque joueur doit déplacer son pion du côte de départ jusqu'à l'autre côté du plateau.\n");
                 printf("Le premier qui atteint l'autre côté gagne.\n");
                 printf("Chaque joueur peut déplacer son pion d'une case à la fois.\n");
